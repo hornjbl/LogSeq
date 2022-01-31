@@ -1,0 +1,41 @@
+- #### People
+	- alias:: 
+	  tags::
+	  template:: people
+- #### Biblingo Lesson X
+  template:: Biblingo Lesson
+	- #### Checklist
+		- TODO Review Lesson Resources and make NB notes
+		- TODO Lesson x.1
+			- TODO Review NB
+			- TODO Sentences (topic)
+			- TODO Reading Comprehension - Title
+			- TODO Fluency Drills
+			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
+			- TODO Complete Biblingo Fluency Drills
+		- TODO Lesson x.2
+			- TODO Review NB
+			- TODO Sentences (topic)
+			- TODO Reading Comprehension - Title
+			- TODO Fluency Drills
+			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
+			- TODO Complete Biblingo Fluency Drills
+		- TODO Lesson x.3
+			- TODO Review NB
+			- TODO Sentences (topic)
+			- TODO Reading Comprehension - Title
+			- TODO Fluency Drills
+			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
+			- TODO Complete Biblingo Fluency Drills
+		- TODO Lesson x.4
+			- TODO Review NB
+			- TODO Sentences (topic)
+			- TODO Reading Comprehension - Title
+			- TODO Fluency Drills
+			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
+			- TODO Complete Biblingo Fluency Drills
+	- #### NB
+	- #### Lesson x.1
+		- #### Sentences (topic)
+		- #### Reading Comprehension - Title
+		- #### Fluency Drills
