@@ -4,45 +4,51 @@
  {:block/name "2022-01-28",
   :block/created-at 1643352231352,
   :block/updated-at 1643352319247}
+ {:block/name "2022-01-30",
+  :block/created-at 1643520770166,
+  :block/updated-at 1643521661001}
+ {:block/name "2022-01-31",
+  :block/created-at 1643587200000,
+  :block/updated-at 1643587200000}
  {:block/name "a",
   :block/created-at 1643265507819,
   :block/updated-at 1643265507819}
  {:block/name "annemarie",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "annemarie hefer",
   :block/created-at 1643273713678,
   :block/updated-at 1643279861479}
  {:block/name "b",
   :block/created-at 1643265507819,
   :block/updated-at 1643265507819}
+ {:block/name "biblical greek moc",
+  :block/created-at 1643347185252,
+  :block/updated-at 1643615696347}
  {:block/name "biblingo",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "biblingo lesson 1",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "biblingo lesson 2",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "biblingo lesson 3",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "biblingo lesson 4",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "biblingo lesson 5",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "biblingo lesson 6",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "biblingo lesson 7",
   :block/created-at 1643347240108,
-  :block/updated-at 1643362231540}
- {:block/name "biblingo moc",
-  :block/created-at 1643347185252,
-  :block/updated-at 1643368464220}
+  :block/updated-at 1643605704075}
  {:block/name "c",
   :block/created-at 1643265507819,
   :block/updated-at 1643265507819}
@@ -83,8 +89,29 @@
   :block/created-at 1643265507819,
   :block/updated-at 1643265507819}
  {:block/name "people",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
+ {:block/name "pres-act-ind",
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
+ {:block/name "pres-mid",
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
+ {:block/name "pres-midpas-ind",
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
+ {:block/name "present (t) active (v) indicative (m) verb",
+  :block/created-at 1643519097381,
+  :block/updated-at 1643519315396}
+ {:block/name "present (t) middle or passive (v) indicative (m) verb",
+  :block/created-at 1643518807033,
+  :block/updated-at 1643519407709}
+ {:block/name "present-middle",
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
+ {:block/name "present-middle/passive-indicative",
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "template blocks",
   :block/created-at 1643279692733,
   :block/updated-at 1643348669618}
@@ -98,47 +125,47 @@
   :block/created-at 1643265507819,
   :block/updated-at 1643265507819}
  {:block/name "work",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "work meetings",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "work moc",
   :block/created-at 1643279136799,
   :block/updated-at 1643369925213}
  {:block/name "με",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "πρός",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "πρὸς",
   :block/created-at 1643350219685,
   :block/updated-at 1643350778984}
  {:block/name "σέ",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "σε",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675040,
+  :block/updated-at 1643635675040}
  {:block/name "σύ",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "σὲ",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "σὺ",
   :block/created-at 1643351057432,
   :block/updated-at 1643358216277}
  {:block/name "ἀπό",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "ἀπὸ",
   :block/created-at 1643352580567,
-  :block/updated-at 1643352611611}
+  :block/updated-at 1643520386212}
  {:block/name "ἐγώ",
-  :block/created-at 1643379277597,
-  :block/updated-at 1643379277597}
+  :block/created-at 1643635675041,
+  :block/updated-at 1643635675041}
  {:block/name "ἐγὼ",
   :block/created-at 1643350880380, 
   :block/updated-at 1643358252852}]
