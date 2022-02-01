@@ -1,2 +1,5 @@
 - To push to remote repo:
-	- /c
+	- ``` 
+	  git push origin main
+	  ```
+-
