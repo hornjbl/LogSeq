@@ -1,7 +1,7 @@
 - #### Biblingo Lesson 7
 	- #### Checklist
 		- DONE Review Lesson Resources and make NB notes
-		- TODO Lesson x.1
+		- TODO Lesson 7.1
 		  :LOGBOOK:
 		  CLOCK: [2022-01-28 Fri 07:46:26]--[2022-01-28 Fri 07:46:27] =>  00:00:01
 		  CLOCK: [2022-01-28 Fri 07:46:28]--[2022-01-28 Fri 07:46:29] =>  00:00:01
@@ -18,21 +18,21 @@
 			- DONE Fluency Drills
 			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
 			- DONE Complete Biblingo Fluency Drills
-		- TODO Lesson x.2
+		- TODO Lesson 7.2
 			- TODO Review NB
 			- TODO Sentences (topic)
 			- TODO Reading Comprehension - Title
 			- TODO Fluency Drills
 			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
 			- TODO Complete Biblingo Fluency Drills
-		- TODO Lesson x.3
+		- TODO Lesson 7.3
 			- TODO Review NB
 			- TODO Sentences (topic)
 			- TODO Reading Comprehension - Title
 			- TODO Fluency Drills
 			- TODO Complete Biblingo Lesson Reading and General Reading Exercises
 			- TODO Complete Biblingo Fluency Drills
-		- TODO Lesson x.4
+		- TODO Lesson 7.4
 			- TODO Review NB
 			- TODO Sentences (topic)
 			- TODO Reading Comprehension - Title
