@@ -68,7 +68,7 @@
 			- DONE Καὶ [γεύεται]([[Pres-MidPas-Ind]]) τὸν ἄρτον {{cloze And he is tasting/tastes the bread.}}
 			- DONE [Βάλλει]([[Pres-Act-Ind]]) τὸν ἄρτον ὁ γεωργός {{cloze The farmer is throwing/throws the loaf.}}
 			- DONE Καὶ [πορεύεται]([[Pres-MidPas-Ind]]) [[ἀπὸ]] τοῦ τέκνου {{cloze And he is going/goes from the child.}}
-			- LATER Ὁ γεωργὸς ἔρχεται [[πρὸς]] δοῦλον {{cloze }}
+			- DONE Ὁ γεωργὸς [ἔρχεται]([[Pres-MidPas-Ind]]) [[πρὸς]] δοῦλον {{cloze The farmer is going/goes to a slave.}}
 			- LATER Ὁ δοῦλος ἔχει ἐλαίας
 			- LATER Ὁ γεωργὸς λαμβάνει ἐλαίαν
 			- LATER Καὶ γεύεται τὴν ἐλαίαν
