@@ -1,0 +1,2 @@
+- To push to remote repo:
+	- /c
