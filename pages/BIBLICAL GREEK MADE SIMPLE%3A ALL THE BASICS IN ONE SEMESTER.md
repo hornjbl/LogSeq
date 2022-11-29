@@ -1,0 +1,16 @@
+- # CHAPTER 1: SIGNS AND SOUNDS OF GREEK MADE SIMPLE
+- # CHAPTER 4: GREEK INDICATIVE VERBS MADE SIMPLE
+	- **CHAPTER SUMMARY:**
+	- ## 4.1. VERB BASICS
+		- **SUMMARY:** There are three basic things you need to consider when looking at a verb: what type of verb it is, what information the verb communicates, and what the aspect of the verb is (as opposed to it's tense, which is secondary to the aspect).
+	- ## 4.2. COMPONENTS OF A GREEK VERB
+		- **SUMMARY:** Verbs have six main components, indicated in the way that the stem is inflected by post and pre-suffixes to change the meaning - tense, voice, mood, person, number and lexical form.
+	- ## 4.3. HOW GREEK INDICATIVE VERBS ARE FORMED
+		- **SUMMARY:** The "indicative slot machine" can be used to learn the various forms of indicative verbs, but is restricted to "strong verbs" that are spelled consistently and follow recognizable patterns.
+	- ## 4.4. STRONG VERB EXAMPLE
+	- ## 4.5. VERB PARSING
+	- ## 4.6. THE LAST WORD
+	- ## 4.7. THE LEAST YOU NEED TO KNOW
+	- ## 4.8. GREEK@LOGOS
+	- ## 4.9. VOCABULARY
+	- ## 4.10. THE SECOND TIME AROUND

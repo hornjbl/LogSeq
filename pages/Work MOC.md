@@ -1,5 +1,0 @@
-- ## Scripts
-	- #### Database Access
-		- [[General SQL Access Script]]
-- ## Misc
-	- [[Work Meetings]]
