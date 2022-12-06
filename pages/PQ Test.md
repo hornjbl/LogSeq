@@ -1,0 +1,42 @@
+- 1) Which smile is real?
+	- C.
+- 2) Where is the best place to stand at a networking event?
+	- C.
+- 3) What does this face mean?
+	- C.
+- 4) Which saying about people is most true?
+	- B.
+- 5) How much of our personality comes from our genes?
+	- B.
+- 6) The best way to show someone you care about them is to:
+	- E.
+- 7) Which phrase corresponds best with this facial expression?
+	- B.
+- 8) Which emoticon would best represent this face?
+	- D.
+- 9) If this man walked into your office, what would you guess about him? (Hint: Only one of these personality assessments is correct.)
+	- A.
+- 10) Our brains are most active when we are chatting about:
+	- C.
+- 11) What does this face mean?
+	- D.
+- 12) In the average conversation, people typically hold eye contact what percentage of the time in a conversation?
+	- A.
+- 13) The best way to get someone on the same page as your is to:
+	- A.
+- 14) What does this face mean?
+	- A.
+- 15) Which of these habits tends to annoy people the most?
+	- C. (or D.)
+- 16) People will pay more for something that:
+	- A.
+- 17) When you first meet someone, you are LEAST likely to be able to accurately guess:
+	- B.
+- 18) The easiest way to know if your new colleague is neurotic is if they:
+	- B.
+- 19) What does this face mean?
+	- B.
+- 20) Making someone feel ___ is the best way to improve their mood.
+	- C.
+-
+- Score on 2022-11-30 = 130

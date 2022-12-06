@@ -1,0 +1,21 @@
+alias:: Attack Rolls, Attack Roll
+
+- [Core Rulebook](https://2e.aonprd.com/Rules.aspx?ID=321)
+-
+- **Melee attack roll result = d20 roll + Strength modifier (or optionally Dexterity modifier for a finesse weapon) + proficiency bonus + other bonuses + penalties**
+- **Ranged attack roll result = d20 roll + Dexterity modifier + proficiency bonus + other bonuses + penalties**
+- Add your relevant [[Ability Modifier]] determined by the type of attack or the weapon traits.
+- [[Proficiency Bonus]]
+	- Add the [[Proficiency Bonus]] for the weapon used.
+	- Your class determines your proficiency rank for various weapons.
+- [[Bonusses and Penalties]]
+	- Apply [[Circumstance Bonus]]es from things like the aid of an ally, or other beneficial situations.
+	- Apply [[Status Bonus]]es from spells or other magical aids.
+	- Apply [[Item Bonus]]es from magical weapons, etc.
+	- Apply [[Circumstance Penalty]] from risky tactics or detrimental circumstances.
+	- Apply [[Status Penalty]] from spells and magic working against you.
+	- Apply [[Item Penalty]] when using shoddy weapons.
+	- Apply [[Untyped Penalty]] like [[Multiple Attack Penalty]] or [[Range Penalty]].
+- [[Armor Class]]
+	- Compare the attack roll result against the target's [[Armor Class]].
+	- The roll result must meet or exceed the target's [[Armor Class]].
