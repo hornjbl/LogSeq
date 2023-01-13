@@ -59,11 +59,8 @@
 		  CLOCK: [2022-11-29 Tue 15:52:31]--[2022-11-29 Tue 15:53:11] =>  00:00:40
 		  :END:
 	- ## ENCOUNTER MODE
-	  collapsed:: true
 		- [AON](https://2e.aonprd.com/Rules.aspx?ID=429)
 	- ## EXPLORATION MODE
-	  collapsed:: true
 		- [AON](https://2e.aonprd.com/Rules.aspx?ID=469)
 	- ## DOWNTIME MODE
-	  collapsed:: true
 		- [AON](https://2e.aonprd.com/Rules.aspx?ID=473)

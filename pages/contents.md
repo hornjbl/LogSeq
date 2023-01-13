@@ -1,7 +1,6 @@
 - [[PF2E Core Rulebook Notes]]
 	- General Rules
 		- [[Checks]]
-		  collapsed:: true
 			- [[Bonusses and Penalties]]
 			- [[Degrees of Success]]
 			- [[Effects]]
