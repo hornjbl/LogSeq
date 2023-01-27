@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["pf2e core rulebook notes" "6386066f-d58b-44a9-9ebd-02cf78c35dfe" "Main MOC"]
+ :favorites ["Contents" "6386066f-d58b-44a9-9ebd-02cf78c35dfe" "Main MOC"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

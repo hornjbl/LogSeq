@@ -1,0 +1,2 @@
+- Manager, Domain Data (SA Operations) - Domain Data Management
+- Data Manager for GRES/RES.

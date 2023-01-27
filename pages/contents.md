@@ -1,21 +1,3 @@
-- [[PF2E Core Rulebook Notes]]
-	- General Rules
-		- [[Checks]]
-			- [[Bonusses and Penalties]]
-			- [[Degrees of Success]]
-			- [[Effects]]
-			- [[Difficulty Class]]
-		- Specific Checks
-		  collapsed:: true
-			- [[Attack Rolls]]
-				- [[Multiple Attack Penalty]]
-				- [[Range Penalty]]
-				- [[Armor Class]]
-			- [[Spell Attack Rolls]]
-				- [[Armor Class]]
-				- [[Saving Throws]]
-			- [[Perception Checks]]
-			- [[Saving Throws]]
-		- Special Checks
-			- Flat Checks (PF2E)
-			- Secret Checks (PF2E)
+- Books
+  collapsed:: true
+	- [[Trellis and The Vine]]

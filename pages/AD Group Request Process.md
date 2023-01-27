@@ -1,0 +1,8 @@
+- Log in to Remedy's Service Request Management.
+- Log a "Security Group Access" request.
+	- ![image.png](../assets/image_1674734845964_0.png)
+- Select "Create" from the **Request Type** dropdown list.
+- Select "Global" from the **Group Type** dropdown list.
+- Specify the **Group Name** following correct naming standards and conventions.
+- Select "Yes" from the **Modify Group Members?** dropdown list.
+- Supply all other required information.
