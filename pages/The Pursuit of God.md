@@ -1,0 +1,13 @@
+- Chapter 1 - Following Hard After God
+	- "Being made in His image, we have within us the capacity to know Him. In our sins, we lack only the power."
+	- May I not be content with little, but may I be hungry and thirsty for you with a hunger and thirst that is not easy or quick to be satisfied, with anything less than as much as I can feed off you.
+	- "Oh God, I have tasted thy goodness, and it has both satisfied me and made me thirsty for more. I am painfully conscious of my need of further grace. I am ashamed of my lack of desire. O God, the triune God, I want to want thee; I long to be filled with longing; I thirst to be made more thirsty still. Show me thy glory, I pray thee, that so I may know thee indeed. Begin in mercy a new word of love within me. Say to my soul, 'Rise up, my love, my fair one, and come away.' Then give me grace to rise and follow thee up from this misty lowland where I have wandered so long. In Jesus' name. Amen."
+- Chapter 2 - The Blessedness Of Possessing Nothing
+- Chapter 3 - Removing The Veil
+- Chapter 4 - Apprehending God
+- Chapter 5 - The Universal Presence
+- Chapter 6 - The Speaking Voice
+- Chapter 7 - The Gaze Of The Soul
+- Chapter 8 - Restoring The Creator-Creature Relation
+- Chapter 9 - Meekness And Rest
+- Chapter 10 - The Sacrament Of Living

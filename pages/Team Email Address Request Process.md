@@ -1,6 +1,6 @@
 - Log in to Remedy's Service Request Management.
 - Log an "Email Exchange Services" request.
-	- ![image.png](../assets/image_1674734269902_0.png)
+	- ![image.png](../assets/image_1674734269902_0.png){:height 160, :width 351}
 - Select "Distribution List Services" from the **Exchange Service Type** dropdown list.
 - Select "Create" from the **Request Type** dropdown list.
 - Supply all other required information.
