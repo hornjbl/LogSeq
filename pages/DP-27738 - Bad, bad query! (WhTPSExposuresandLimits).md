@@ -1,6 +1,5 @@
 - [bad_query.sql](../assets/bad_query_1675672068897_0.sql)
 - Stored Proc (Original)
-  collapsed:: true
 	- ```SQL
 	  USE [RSVRDPSAPIQCIBDW]
 	  GO

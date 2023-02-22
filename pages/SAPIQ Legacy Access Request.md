@@ -1,0 +1,7 @@
+- ![image.png](../assets/image_1675677016697_0.png)
+- **Group Type*:** Universal
+- **Group Name*:** RSVR_P_DB_TPFA_READ
+- **Group Description*:** RSVR_P_DB_TPFA_READ
+- **Domain*:** SCMBNT1
+- **Motivation*:**  This is a group to manage legacy access to SAP IQ Simplification data stored on Reservoir.
+- **Additional Information:** Please ensure that Ben-Lindsey Horn is the primary owner, but also add Ruan Vlok as co-owner of the group with the same permissions to manage.

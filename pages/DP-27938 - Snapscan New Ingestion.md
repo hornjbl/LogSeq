@@ -1,0 +1,4 @@
+- Batch ingestion pattern
+- DB: RSVRRawBatchPBB
+- Schema Name: SnapScan
+- AD Group: RSVR_P_DB_SNAPSCAN_READ

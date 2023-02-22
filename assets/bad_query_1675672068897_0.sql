@@ -1,4 +1,4 @@
-USE [RSVRDPSAPIQCIBDW]
+USE [Students]
 GO
     
 --Get the data FROM the various tables
@@ -71,8 +71,8 @@ SELECT top 10
 		0 as PH
 FROM TPS.WhExposureAndUtil AS a
 LEFT OUTER JOIN TPS.WhLimits AS b
-ON a.LimitReference = b.LimitReference
-AND a.BusinessDate = b.BusinessDate
+ON a.LimitReference = b.LimitReference			-- INDEX this column - high-selectivity
+AND a.BusinessDate = b.BusinessDate				-- INDEX - Used frequently in JOIN and WHERE clauses
 AND ISNULL(convert(varchar, a.UtilizationStepNo), '') = ISNULL(convert(varchar, b.LimitStepNo), '')
 --LEFT OUTER JOIN (SELECT     E.LimitReference,
 --                            E.BusinessDate,
@@ -91,8 +91,8 @@ AND ISNULL(convert(varchar, a.UtilizationStepNo), '') = ISNULL(convert(varchar, 
 --                ON E.LimitReference = L.LimitReference
 --                AND E.BusinessDate = L.BusinessDate
 --                AND ISNULL(convert(varchar,E.UtilizationStepNo),'') = ISNULL(convert(varchar,L.LimitStepNo),'')
---                where L.LimitStepNo = 1
---                AND E.BusinessDate >= dateadd(day,-120,getdate())) AS Step1 ( LimitReference,BusinessDate,LimitTenor,LimitStepNo,LimitPortfolio,ProductSymbol,LimitType,OrganizationCode,LimitAmount,TodaysLimitAmount,UtilizationAmount,RiskTaker ) 
+--                WHERE L.LimitStepNo = 1
+--                AND E.BusinessDate >= dateadd(day,-32,getdate())) AS Step1 ( LimitReference,BusinessDate,LimitTenor,LimitStepNo,LimitPortfolio,ProductSymbol,LimitType,OrganizationCode,LimitAmount,TodaysLimitAmount,UtilizationAmount,RiskTaker ) 
 --ON a.LimitReference = Step1.LimitReference
 --AND a.BusinessDate = Step1.BusinessDate
 --AND ISNULL(convert(varchar,a.UtilizationStepNo),'') = ISNULL(convert(varchar,Step1.LimitStepNo),'')
@@ -160,7 +160,41 @@ AND ISNULL(convert(varchar, a.UtilizationStepNo), '') = ISNULL(convert(varchar, 
 --ON a.LimitReference = Risk.LimitReference 
 --AND a.BusinessDate = Risk.BusinessDate
 WHERE a.UtilizationStepNo = 1
-AND a.CustomerCode IN ('100062926','100062961','100061084') 
---ByJacque AND a.BusinessDate >= dateadd(day,-120,getdate())
-AND a.BusinessDate >= dateadd(MM,-36,getdate())
-ORDER BY a.BusinessDate ASC, a.CustomerCode ASC, a.Measure ASC, a.Product ASC;
+--AND a.BusinessDate >= dateadd(MM,-36,getdate())
+AND a.BusinessDate >= dateadd(MM,-1,getdate()) -- Temp added by BH
+ORDER BY a.BusinessDate ASC, a.CustomerCode ASC, a.Measure ASC, a.Product ASC; -- REMOVE
+
+
+-- TPS.WhExposureAndUtil - 24,955,204
+-- TPS.WhLimits - 166,984,461
+
+
+/*
+Missing Index Details from bad_query_1675672068897_0.sql - psdc-usqlcds001.za.sbicdirectory.com\rsvrdev,40001.Students (SCMBNT1\ea201724 (478))
+The Query Processor estimates that implementing the following index could improve the query cost by 57.2055%.
+*/
+
+--USE [Students]
+--GO
+--CREATE NONCLUSTERED INDEX [<Name of Missing Index, sysname,>]
+--ON [TPS].[WhExposureAndUtil] ([UtilizationStepNo],[BusinessDate])
+--INCLUDE ([WhExposureAndUtilKey],[CustomerCode],[Portfolio],[Product],[Host],[Commodity],[BookDefinition],[SecurityType],[Measure],[Currency],[TodaysValue],[PeakValue],[LimitReference])
+--GO
+
+
+/*
+Missing Index Details from bad_query_1675672068897_0.sql - psdc-usqlcds001.za.sbicdirectory.com\rsvrdev,40001.Students (SCMBNT1\ea201724 (478))
+The Query Processor estimates that implementing the following index could improve the query cost by 63.4486%.
+*/
+
+
+--USE [Students]
+--GO
+--CREATE NONCLUSTERED INDEX NCI_BusinessDate
+--ON [TPS].[WhLimits] ([BusinessDate])
+--INCLUDE ([LimitReference],[LimitType],[LimitPortfolio],[ProductSymbol],[Committed],[LimitFixed],[LimitFloating],[LimitStepNo])
+--GO
+
+
+
+TRUNCATE TABLE [TPS].[WhExposureAndUtil]
