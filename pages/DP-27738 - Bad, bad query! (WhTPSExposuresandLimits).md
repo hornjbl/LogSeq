@@ -1,5 +1,6 @@
 - [bad_query.sql](../assets/bad_query_1675672068897_0.sql)
 - Stored Proc (Original)
+  collapsed:: true
 	- ```SQL
 	  USE [RSVRDPSAPIQCIBDW]
 	  GO
@@ -245,4 +246,68 @@
 	      RETURN; 
 	  END catch;
 	  GO
+	  ```
+- DONE Change Script:
+  collapsed:: true
+	- ```sql
+	  --[TPS].[WhExposureAndUtil] - [NCI_PRrimaryKey_WhExposureAndUtil]
+	  
+	  USE [RSVRDPSAPIQCIBDW]
+	  GO
+	  
+	  /****** Object:  Index [NCI_PRrimaryKey_WhExposureAndUtil]    Script Date: 2023/02/24 10:38:00 ******/
+	  ALTER TABLE [TPS].[WhExposureAndUtil] DROP CONSTRAINT [NCI_PRrimaryKey_WhExposureAndUtil]
+	  GO
+	  
+	  /****** Object:  Index [NCI_PRrimaryKey_WhExposureAndUtil]    Script Date: 2023/02/24 10:38:00 ******/
+	  ALTER TABLE [TPS].[WhExposureAndUtil] ADD  CONSTRAINT [CIPK_WhExposureAndUtil] PRIMARY KEY CLUSTERED 
+	  (
+	  	[BusinessDate], [WhExposureAndUtilKey] ASC
+	  )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = OFF, FILLFACTOR = 95, DATA_COMPRESSION = PAGE) ON [SECONDARY]
+	  
+	  
+	  
+	  -- [TPS].[WhLimits] - [CCI_WhLimits]
+	  
+	  USE [RSVRDPSAPIQCIBDW]
+	  GO
+	  
+	  /****** Object:  Index [CCI_WhLimits]    Script Date: 2023/02/24 10:34:36 ******/
+	  DROP INDEX [CCI_WhLimits] ON [TPS].[WhLimits]
+	  GO
+	  
+	  /****** Object:  Index [CCI_WhLimits]    Script Date: 2023/02/24 10:34:36 ******/
+	  -- ROLLBACK SCRIPT - CREATE CLUSTERED COLUMNSTORE INDEX [CCI_WhLimits] ON [TPS].[WhLimits] WITH (DROP_EXISTING = OFF, COMPRESSION_DELAY = 0) ON [SECONDARY]
+	  GO
+	  
+	  -- [NCI_PRrimaryKey_WhLimits]
+	  
+	  USE [RSVRDPSAPIQCIBDW]
+	  GO
+	  
+	  /****** Object:  Index [NCI_PRrimaryKey_WhLimits]    Script Date: 2023/02/24 10:35:31 ******/
+	  ALTER TABLE [TPS].[WhLimits] DROP CONSTRAINT [NCI_PRrimaryKey_WhLimits]
+	  GO
+	  
+	  /****** Object:  Index [NCI_PRrimaryKey_WhLimits]    Script Date: 2023/02/24 10:35:31 ******/
+	  ALTER TABLE [TPS].[WhLimits] ADD  CONSTRAINT [CIPK_WhLimits] PRIMARY KEY CLUSTERED 
+	  (
+	  	[BusinessDate], [WhLimitsKey] ASC
+	  )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = OFF, FILLFACTOR = 95, DATA_COMPRESSION = PAGE) ON [SECONDARY]
+	  GO
+	  
+	  
+	  /*
+	  Missing Index Details from bad_query_1675672068897_0.sql - rdssqlres1p,60001.RSVRDPSAPIQCIBDW (SCMBNT1\ea201724 (1279))
+	  The Query Processor estimates that implementing the following index could improve the query cost by 42.2911%.
+	  */
+	  
+	  /*
+	  USE [RSVRDPSAPIQCIBDW]
+	  GO
+	  CREATE NONCLUSTERED INDEX [<Name of Missing Index, sysname,>]
+	  ON [TPS].[WhExposureAndUtil] ([UtilizationStepNo],[BusinessDate])
+	  INCLUDE ([WhExposureAndUtilKey],[CustomerCode],[Portfolio],[Product],[Host],[Commodity],[BookDefinition],[SecurityType],[Measure],[Currency],[TodaysValue],[PeakValue],[LimitReference])
+	  GO
+	  */
 	  ```

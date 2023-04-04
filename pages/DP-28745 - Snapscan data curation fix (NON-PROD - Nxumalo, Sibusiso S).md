@@ -1,0 +1,3 @@
+- Metadata Template
+	- [Reservoir Data Curation - vwCuratedZAFReSnapScanAccountOrigination (4).xlsx](../assets/Reservoir_Data_Curation_-_vwCuratedZAFReSnapScanAccountOrigination_(4)_1678780913779_0.xlsx)
+-
